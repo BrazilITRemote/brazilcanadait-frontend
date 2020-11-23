@@ -1,0 +1,81 @@
+.site-hero{
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include desktop{
+    height: auto;
+    padding: 200px 0;
+  }
+  @include mobile{
+    padding: 150px 0;
+  }
+  .site-hero-scroll i {
+    font-family: "FontAwesome";
+    color: #fff;
+    font-style: normal;
+    font-size: 3em;
+    @include desktop{
+      font-size: 2.4em;
+    }
+    @include mobile{
+      font-size: 2em;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+  &-content{
+    h1{
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-bottom: 75px;
+      font-size: 5em;
+      @include desktop-lg{
+        font-size: 4.4em;
+        margin-bottom: 50px;
+      }
+      @include tablet{
+        font-size: 3.8em;
+      }
+      @include mobile{ 
+        font-size: 2.3em;
+      }
+    }
+    &-buttons{
+      margin: 0;
+      padding: 0;
+      li{
+        display: inline-block;
+        @include mobile{
+          display: block;
+        }
+        &:not(:last-child){
+          margin-right: 30px;
+          @include mobile{
+            margin-right: 0;
+            margin-bottom: 20px;
+          }
+        }
+        .btn{
+          font-weight: 600;
+          @include mobile{
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  &-scroll{
+    position: absolute;
+    left: 50%; bottom: 70px;
+    transform: translateX(-50%);
+  }
+}
+

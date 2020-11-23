@@ -1,0 +1,15 @@
+enable  : true
+title   : "Outros Grupos"
+subtitle: 'Existem muitos grupos e comunidades para profissionais de IT no Canada que voce tambem pode querer fazer parte, especialmente os grupos mais regionais, por provincia ou cidade. Confira abaixo uma lista com alguns deles.'
+group_item :
+  - thumb : "images/testimonial/user-thumb-one.jpg"
+    name  : "Brasileiros de IT em Ottawa"
+    description : "Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies." 
+
+  - thumb : "images/testimonial/user-thumb-two.jpg"
+    name  : "Brasileiros de IT em Toronto"
+    description : "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element." 
+
+  - thumb : "images/testimonial/user-thumb-three.jpg"
+    name  : "Brasileiros de IT em Montreal"
+    description : "We’re a really busy restaurant, and roxo gives our customers a easy way to order, pay, and pick up their food so they can beat the line and beat that lunch rush." 

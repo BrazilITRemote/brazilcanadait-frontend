@@ -1,0 +1,25 @@
+enable : true
+channel_item: 
+  - title: "Canal Slack"
+    snippet: "Participe do nosso canal Slack."
+    pre: "<i class='fab fa-slack'></i>"
+    url: ""
+    image: "images/channels/slack.jpg"
+
+  - title: "Grupo no Facebook"
+    snippet: "Acompanhe as discussoes no grupo do Facebook."
+    pre: "<i class='fab fa-facebook'></i>"
+    url: ""
+    image: "images/channels/facebook.jpg"
+
+  - title: "Grupo no LinkedIn"
+    snippet: "Acompanhe a pagina do Grupo no LinkedIn."
+    pre: "<i class='fab fa-linkedin'></i>"
+    url: ""
+    image: "images/channels/linkedin.jpg"
+
+  - title: "Canal Telegram"
+    snippet: "Participe do nosso canal Telegram."
+    pre: "<i class='fab fa-telegram'></i>"
+    url: ""
+    image: "images/channels/telegram.jpg"

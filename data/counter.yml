@@ -1,0 +1,14 @@
+enable : true
+heading : "Faca Parte do Grupo"
+counter_item: 
+  - title: "Membros no Facebook"
+    number: "5.8k"
+
+  - title: "Membros no LinkedIn"
+    number: "xxx"
+
+  - title: "Usuarios no Slack"
+    number: "750"
+
+  - title: "Usuarios no Telegram"
+    number: "230"

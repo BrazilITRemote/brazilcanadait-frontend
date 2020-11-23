@@ -1,0 +1,46 @@
+#baseURL       = "http://VMLinux/"
+baseURL       = "https://brcait.netlify.app/"
+languageCode  = "en-us"
+title         = "BrazilCanadaIT"
+theme         = "brcait-roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+
+# Site Params
+[params]
+  logo = "images/logo-brcait.jpg"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+# Banner Section
+[params.banner]
+  enable                = true
+  background_image      = "images/backgrounds/hero-background-brcait2.jpg"
+  heading               = "Brasileiros de IT no Canada"
+
+
+[params.sobre]
+  enable    = true
+  title     = "Como Participar?"
+  content  = 'Somos um grupo de brasileiros que vivem ou pretendem imigrar para o Canadá. Usamos diferentes canais para compartilhar oportunidades e novidades para profissionais de Informatica. "Falamos" sobre temas como tecnologias mais utilizadas, certificações, experiências profissionais e eventos da area.<br /><br />Se voce e brasileiro de IT interessado em saber mais sobre o Mercado no Canada, Junte-se a nos!'
+
+
+[params.footer]
+  # Footer Contact Info
+  [params.footer.contactInfo]
+    line1   = "Copyright 2020.<br />All rights reserved"
+    line2  = "Photos by <a href='https://unsplash.com/photos/0ahqRV1sJJ4' target='_blank'>@atawfiq</a>, <a href='https://unsplash.com/photos/sw9V-jBBurQ' target='_blank'>@diegocatto</a>, <a href='https://unsplash.com/photos/_dH-oQF9w-Y' target='_blank'>@guilhermestecanella</a>, <a href='https://unsplash.com/photos/AxUWHRKQxg8' target='_blank'>@jonathanborba</a> and <a href='https://unsplash.com/photos/V5vqWC9gyEU' target='_blank'>@lunarts</a> from <a href='https://unsplash.com/' target='_blank'>Unsplash</a>"
+      
