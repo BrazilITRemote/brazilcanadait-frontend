@@ -6,19 +6,21 @@ img {
 }
 
 header {
-  background-color: #fff;
-  margin: 0.75rem;
-  padding: 1rem 0;
-  width: calc(100% - 1.5rem);
-  box-shadow: 0 0 12px 0 rgba(0,0,0,.09);
   transition: all .3s cubic-bezier(0.55,0.085,0.68,0.53);
+  margin: 0.75rem;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,.09);
+  border-radius: 4px;
+  width: calc(100% - 1.5rem);
+  padding: 1rem 0;
+  background-color: #fff;
+
 }
 
 @media (min-width: 992px) {
   header {
     margin: 0;
-    padding: 1rem 0;
     box-shadow: none;
+    padding: 1rem 0;
   }
 }
 
@@ -43,9 +45,9 @@ section {
 }
 
 .split {
-  display: flex;
   flex-direction: column;
   justify-content: center;
+  display: flex;
 }
 
 @media (min-width: 1024px) {
@@ -54,8 +56,8 @@ section {
   }
   
   .split > * {
-    flex-basis: 100%;
     position: relative;
+    flex-basis: 100%;
   }
 
   .split > * + * {

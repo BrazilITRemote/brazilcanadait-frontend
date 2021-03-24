@@ -1,16 +1,16 @@
 @use '../abstracts/index' as a;
 
 .navbar {
-  width: 100%;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 .navbar-brand {
-  width: 166px;
   margin-right: 2rem;
+  width: 166px;
 }
 
 @media (min-width: 992px) {
@@ -19,15 +19,9 @@
   }
 }
 
-
-
-
-
-
-
 .navbar-toggler {
-  float: right;
   position: relative;
+  float: right;
 }
 
 @media (min-width: 992px) {
@@ -37,31 +31,31 @@
 }
 
 .navbar-toggler input {
-  display: block;
-  width: 135%;
-  height: 170%;
   position: absolute;
+  z-index: 2; /* over the hamburger */
   top: -7px;
   left: -5px;
-  margin: 0;
-  cursor: pointer;
+  display: block;
   opacity: 0; 
-  z-index: 2; /* over the hamburger */
+  margin: 0;
+  width: 135%;
+  height: 170%;
+  cursor: pointer;
 }
 
 .navbar-toggler span {
-  display: block;
-  width: 30px;
-  height: 3px;
-  margin-bottom: 5px;
   position: relative;
-  background: a.$clr-primary-400;
-  border-radius: 2px;
   z-index: 1;
+  display: block;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;            
+              opacity 0.55s ease;  
+  margin-bottom: 5px;
+  border-radius: 2px;
+  width: 30px;
+  height: 3px;
+  background: a.$clr-primary-400;
 }
 
 .navbar-toggler span:last-child {
@@ -92,31 +86,30 @@
 }
 
 .navbar-menu {
-  display: none;
   flex: 1 100%;
-  list-style-type: none;
+  display: none;
   padding: 1.5rem 0 0.25rem 0;
-  /* to stop flickering of text in safari */
+  list-style-type: none;
 }
 
 @media (min-width: 992px) {
   .navbar-menu {
-    display: flex;
     flex: 1;
     align-items: center;
     justify-content: flex-end;
+    display: flex;
     padding: 0;
   }
 }
 
 .nav-link {
   display: block;
-  text-decoration: none;
-  text-align: center;
   padding: 0.5em 0;
   font-size: 1.2rem;
-  color: a.$clr-primary-400;
   font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  color: a.$clr-primary-400;
 }
 
 @media (min-width: 992px) {

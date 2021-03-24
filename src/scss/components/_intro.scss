@@ -10,19 +10,19 @@
 
 .intro img {
   position: static;
-  max-width: 110%;
   margin-top: 2rem;
   margin-left: -2rem;
+  max-width: 110%;
 }
 
 @media (min-width: 1024px) {
   .intro img {
     position: absolute;
-    width: auto;
-    max-width: unset;
     top: -2rem;
     left: 0;
     margin-top: 0;
     margin-left: 0;
+    width: auto;
+    max-width: unset;
   }
 }
