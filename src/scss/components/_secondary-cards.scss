@@ -7,12 +7,12 @@
   flex-wrap: wrap;
 }
 
-.s-cards > * {
+.secondary-cards > * {
   margin-bottom: 2rem;
-  flex-basis: calc(33% - 1rem);
+  flex-basis: 100%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .secondary-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -33,7 +33,7 @@
   }
   
   .secondary-cards > * {
-    flex-basis: 100%;
+    flex-basis: calc(33% - 1rem);
   }
 
   .secondary-cards > * + * {
@@ -43,10 +43,9 @@
 
 .s-card {
   position: relative;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 2rem;
   background-color: #fff;
   text-align: left;
-  font-size: 0.93rem;
   transition: all .3s ease-in;
   border: 1px solid #eee;
 }
