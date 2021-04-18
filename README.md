@@ -3,7 +3,7 @@
 1. Clone repository from GitHub
 2. Install project dependencies
 ```
-npm Install
+npm install
 ```
 3. Run dev enviroment locally
 ```
