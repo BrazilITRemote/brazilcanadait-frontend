@@ -1,9 +1,14 @@
+## Requirements
+
+* https://parceljs.org/
+* https://babeljs.io/
+
 ## Updating Files
 
 1. Clone repository from GitHub
 2. Install project dependencies
 ```
-npm Install
+npm install
 ```
 3. Run dev enviroment locally
 ```
@@ -30,3 +35,4 @@ npm run build
 * Deploy previews: `Any pull request against your production branch / branch deploy branches`
 * Branch deploys: `Deploy only the production branch`
 
+<!-- Deployment Trigger - 2 -->
