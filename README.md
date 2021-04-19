@@ -1,3 +1,8 @@
+## Requirements
+
+* https://parceljs.org/
+* https://babeljs.io/
+
 ## Updating Files
 
 1. Clone repository from GitHub
