@@ -10,7 +10,11 @@
   margin-bottom: 2rem;
 }
 
-@media (min-width: 576px) {
+.cards a {
+  text-decoration: none;
+}
+
+@media (min-width: 500px) {
   .cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,10 +49,6 @@
   padding: 2rem 1.5rem;
   background-color: #fff;
   text-align: center;
-}
-
-.card a {
-  text-decoration: none;
 }
 
 .card img {
